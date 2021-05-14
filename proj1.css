@@ -1,0 +1,83 @@
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.mid{
+    display: block;
+    /* border: 2px solid green; */
+    width: 50%;
+    margin: 20px 400px;
+    
+}
+.right{
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+    
+}
+.navbar li{
+    font-size: 20px ;
+    display: inline-block;
+
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+    padding: 20px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:green;
+}
+.left img{
+    width: 130px;
+    }
+.left div{
+    line-height: 15px;
+    font-size: 25px;
+    text-align: center;
+}
+.btn{
+    margin: 0px 10px;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Playball', cursive;
+}
+.btn:hover{
+    background-color: rgb(231, 229, 69);
+}
+.container{
+    /* border: 1px solid rgb(54, 6, 6); */
+    margin: 60px 500px;
+    padding: 50px;
+    width: 55%;
+    border-radius: 35px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 250px ;
+    padding: 0px;
+    /* border:2px solid black; */
+    margin: 2px auto;
+    font-size: 20px;
+    font-family: 'Playball', cursive;
+    border-radius: 10px;
+}
+.container h1{
+    /* text-align: center; */
+}
+.container button{
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+}
